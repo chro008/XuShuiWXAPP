@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#F3941C"
+  },
+  "tabBar": {
+    "color": "#555555",
+    "selectedColor": "#f3901d",
+    "backgroundColor": "#f7f3f3",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "",
+        "iconPath": "images/customview_icon.png",
+        "selectedIconPath": "images/customview_active_icon.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/my_icon.png",
+        "selectedIconPath": "images/my_active_icon.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+/* pages/my/my.wxss */
+
+.my-container {
+  width: 100%;
+  margin-top: 20rpx;
+  border-top: 0.2rpx solid #e3e3e3;
+  background: #fff;
+  font-size: 28rpx;
+  color: #666;
+}
+
+.my-item {
+  border-bottom: 0.2rpx solid #e3e3e3;
+  height: 100rpx;
+  line-height: 100rpx;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+}
+
+.my-item .title {
+  padding-left: 20rpx;
+}
+
+.my-item .title {
+  padding-left: 20rpx;
+}
+
+.logout-icon {
+  width: 38rpx;
+  height: 38rpx;
+  margin-left: 30rpx;
+}
+
+.logout-detention-container {
+  width: 100%;
+  margin-top: 138rpx;
+  text-align: center;
+  display: block;
+}
+
+.logout-detention-containerr .info {
+  width: 100%;
+}
+
+.logout-detention {
+  width: 172rpx;
+  height: 166rpx;
+}
+
+.logout-detention-container .msg-info {
+  margin-top: 42rpx;
+  font-size: 28rpx;
+  color: #999;
+}

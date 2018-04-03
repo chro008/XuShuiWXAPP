@@ -1,0 +1,16 @@
+<!--pages/my/my.wxml-->
+<view class='my-container'>
+  <view class='logout my-item' bindtap='logOut'>
+    <image class='logout-icon' src='/images/logout_icon.png'></image>
+    <text class='title'>注销登录</text>
+  </view>
+</view>
+
+<view class='logout-detention-container'>
+  <view class='info'>
+    <image class="logout-detention" src='/images/logout_detention.png'></image>
+  </view>
+  <view class="info msg-info">
+    <text>真的要退出登录吗</text>
+  </view>
+</view>
